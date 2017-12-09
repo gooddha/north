@@ -4,9 +4,13 @@ body {
   text-shadow: 1px 1px 1px black;
   background-color: darkseagreen;
   background-color: #48395d;
+  background-color: #4abee091;
   /*box-shadow: 0 0 110px #00000085 inset;*/
   padding: 30px;
   margin: 0;
+  display: flex;
+  align-items: center;
+  height: 90vh;
 }
 
 .vignette {
@@ -27,8 +31,9 @@ main {
   /*position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);*/  
+  transform: translateX(-50%) translateY(-50%);*/
   background-color: #16674d;
+  background-color: #3b91a5;
   border-radius: 15px;
   box-shadow: 0 0 110px #00000085;
   padding: 16px 50px;
