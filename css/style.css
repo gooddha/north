@@ -206,6 +206,50 @@ main {
   transition: transform 0.3s;
 }
 
+.docs-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.docs-item {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.docs-item:hover {
+  color: black;
+  transition: 0.4s;
+  background-color: inherit;
+  background: linear-gradient(to top, #2c4b85, #5f99e3);
+  transform: scale(1.1);
+  box-shadow: 0 0 80px #00000085;
+}
+
+.docs-item:active {
+  transition: 0s;
+  transform: scale(1);
+  box-shadow: 0 0 20px #00000085;
+}
+
+.docs-item a {
+  text-decoration: none;
+  padding: 20px 10px 0 10px;
+}
+
+.docs-item a:hover {
+  color: black;
+}
+
+.docs-item p {
+  color: lightgray;
+  transition: color 0.3s;
+  font-size: 20px;
+  text-align: center;
+}
+
 .yandex-map {
   width: 800px;
   height: 620px;
