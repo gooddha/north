@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <!-- <div class="vignette"></div> -->
+    <div class="vignette"></div>
     <header>
       <div class="header-logo">ОЛЦ Северный</div>
       <nav>
@@ -22,15 +22,17 @@
           </li>
           <li><a href="gallery.html">Фотогалерея</a></li>
           <li><a href="#">Новости</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="contacts.html" class="active">Контакты</a></li>
         </ul>
       </nav>
-      <div class="phone">+7 (978) 897-56-12</div>
+      <div class="phone">+7 (978) 404-30-00</div>
     </header>
     <div class="wrapper">
       <main>
         <h1>Контактная информация</h1>
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6a4ff62084847247ddd47b41b5a4d0b557a6bea94b10c3a843d699b43182592a&amp;width=800&amp;height=620&amp;lang=ru_RU&amp;scroll=true"></script>
+        <div class="yandex-map">
+          <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6a4ff62084847247ddd47b41b5a4d0b557a6bea94b10c3a843d699b43182592a&amp;width=800&amp;height=620&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
         <h2>Адрес:</h2>
         <p class="address">
           Оздоровительно-лечебный центр «Северный» располагается в экологически чистейшем районе Крымского полуострова – в его западной части, городе-курорте Евпатория. Адрес: Россия, Крым, г. Евпатория, пгт. Заозерное, ул. Аллея Дружбы, 66
@@ -53,6 +55,7 @@
       </main>
     </div>
     <footer>
+      <div class="bottom-pano"></div>
       <div class="copyright">© Оздоровительно-лечебный центр "Северный" – 2017</div>
     </footer>
   </body>
