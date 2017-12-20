@@ -209,6 +209,7 @@ main {
 .docs-items {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 25px;
 }
 
 .docs-item {
@@ -248,6 +249,7 @@ main {
   transition: color 0.3s;
   font-size: 20px;
   text-align: center;
+  margin: 10px 0;
 }
 
 .yandex-map {
